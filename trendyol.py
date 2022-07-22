@@ -10,7 +10,7 @@ pandas
 """)
 
 url = input("Enter URL: ")
-page_num = int(input("Enter how many pages of data you want (integer): "))
+page_num = int(input("Enter how many pages you want to scrape (integer): "))
 time = float(input("Enter how many seconds to sleep between GET requests (float): "))
 
 if "?pi=" in url:
